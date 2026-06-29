@@ -13,12 +13,12 @@ Note: This README is available in both English and French. / Ce README est dispo
 ## 🌟 Key Features
 - **Privacy by Design (GDPR Compliant):** Zero intermediate servers. ExodSync is a 100% local thick client. Institutional data flows directly from your machine to the Microsoft Graph API.
 - **Dual-Level Reconciliation (Matching & Fallback):** The algorithm first matches accounts by their generated email address, then anchors them using a unique cryptographic hash.
-- **Zero-Touch Autonomy:** Fully automated, silent background synchronization (Client Credentials flow).
+- **Zero-Touch Autonomy:** Fully automated, silent background synchronization .
 - **Instantaneous Engine:** Processes and matches thousands of accounts instantly without UI freezes.
 - **B2B Role-Based Access Control:** Define Administrators, Data Managers, and Password Administrators with tailored UIs.
 - **Native Excel & CSV Support:** Read data directly without conversion.
 - **Pre-flight Data Validation:** Instant detection and purging of invalid rows before any synchronization.
-- **Clean Architecture:** Natively compiled to C using Nuitka for maximum performance, source code protection, and zero false-positive Antivirus alerts. Local configurations are safely hidden in Windows AppData.
+- **Clean Architecture:** Natively compiled for maximum performance, ultimate security, and zero false-positive Antivirus alerts. Local configurations are encrypted and safely hidden on your system.
 
 ---
 
@@ -32,7 +32,7 @@ For a complete step-by-step guide on how to register ExodSync in your Microsoft 
 2. Download **`ExodSync-Windows.zip`** (or Mac).
 3. Unzip the file into a directory of your choice.
 4. Run `ExodSync.exe` (Windows) or the `.app` on Mac.
-5. *Note for Windows:* The application runs as a standalone folder. All configurations will be safely stored in your hidden `%APPDATA%\ExodSync` folder to keep your installation clean.
+5. *Note for Windows:* The application runs as a standalone folder. All configurations will be safely stored in a hidden system vault to keep your installation clean.
 
 ---
 
@@ -64,7 +64,7 @@ Please refer to the [End User License Agreement (EULA)](https://exodsync.com/en/
 - **Gestion des Rôles (RBAC B2B) :** Définissez des Administrateurs, Gestionnaires de données et Administrateurs de mots de passe.
 - **Support Natif Excel & CSV :** Lecture directe sans conversion.
 - **Contrôle Qualité (Pre-flight) :** Détection et purge instantanées des lignes invalides avant toute synchronisation.
-- **Architecture Propre :** Compilé nativement en C avec Nuitka pour des performances maximales, une protection totale du code source et zéro fausse alerte Antivirus. Les configurations locales sont cachées en toute sécurité dans l'AppData de Windows.
+- **Architecture Propre :** Compilé nativement pour des performances maximales, une sécurité absolue et zéro fausse alerte Antivirus. Les configurations locales sont chiffrées et cachées en toute sécurité sur votre système.
 
 ---
 
@@ -78,7 +78,7 @@ Pour un guide complet étape par étape sur la configuration de l'application da
 2. Téléchargez le fichier **`ExodSync-Windows.zip`** (ou Mac).
 3. Dézippez le fichier dans le dossier de votre choix.
 4. Lancez `ExodSync.exe` (Windows) ou le `.app` sur Mac.
-5. *Note Windows :* L'application fonctionne sous forme de dossier autonome. Vos paramètres seront sauvegardés de manière invisible dans `%APPDATA%\ExodSync` pour garder votre dossier propre.
+5. *Note Windows :* L'application fonctionne sous forme de dossier autonome. Vos paramètres seront sauvegardés de manière invisible par le système pour garder votre dossier propre.
 
 ---
 
