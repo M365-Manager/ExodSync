@@ -2,47 +2,37 @@ Note: This README is available in both English and French. / Ce README est dispo
 
 # 🇬🇧 English Version
 
-## ⚡ EntraSync - Excel to Entra ID Provisioning
-**EntraSync** is a standalone desktop application designed to automate and secure the management of Microsoft 365 (Entra ID) accounts. It intelligently bridges the gap between your local database (Excel/CSV) and your Microsoft Azure tenant.
+## ⚡ ExodSync - Excel to Entra ID Provisioning
+**ExodSync** is a standalone desktop application designed to automate and secure the management of Microsoft 365 (Entra ID) accounts. It intelligently bridges the gap between your local database (Excel/CSV) and your Microsoft Azure tenant.
+
+🌐 **Official Website:** [exodsync.com](https://exodsync.com/en/)  
+📖 **Official Documentation:** [exodsync.com/en/docs.html](https://exodsync.com/en/docs.html)
 
 ---
 
 ## 🌟 Key Features
+- **Privacy by Design (GDPR Compliant):** Zero intermediate servers. ExodSync is a 100% local thick client. Institutional data flows directly from your machine to the Microsoft Graph API.
+- **Dual-Level Reconciliation (Matching & Fallback):** The algorithm first matches accounts by their generated email address, then anchors them using a unique cryptographic hash.
+- **Zero-Touch Autonomy:** Fully automated, silent background synchronization (Client Credentials flow).
+- **Instantaneous Engine:** Processes and matches thousands of accounts instantly without UI freezes.
+- **B2B Role-Based Access Control:** Define Administrators, Data Managers, and Password Administrators with tailored UIs.
 - **Native Excel & CSV Support:** Read data directly without conversion.
-- **4-Step Simulation (Dry Run):** Intelligent namesake detection, updates review, creations, and safe deletions.
-- **Asynchronous Execution:** Fast deployment without freezing the UI.
+- **Pre-flight Data Validation:** Instant detection and purging of invalid rows before any synchronization.
+- **Clean Architecture:** Natively compiled to C using Nuitka for maximum performance, source code protection, and zero false-positive Antivirus alerts. Local configurations are safely hidden in Windows AppData.
 
 ---
 
-## ⚙️ Azure Configuration (Step-by-Step Guide)
-Upon the first launch, the application will prompt you for a **Tenant ID** and a **Client ID**. To obtain these, you must register the application in your Azure Portal. 
+## ⚙️ Azure Configuration & Installation
+For a complete step-by-step guide on how to register ExodSync in your Microsoft Azure Portal, and how to use the software, please refer to our official website documentation:
 
-Follow these simple steps:
+👉 **[ExodSync Documentation Guide](https://exodsync.com/en/docs.html)**
 
-1. **Register the Application:**
-   - Go to the **Azure Portal** > **Microsoft Entra ID** > **App registrations**.
-   - Click **New registration**. Name it `EntraSync` (or anything you like) and click **Register**.
-2. **Configure Authentication:**
-   - Go to **Authentication** (left menu) > **Add a platform** > **Mobile and desktop applications**.
-   - Check the box for `http://localhost` and click **Configure**.
-   - Scroll down to "Advanced settings" and ensure **Allow public client flows** is set to **Yes**.
-3. **Grant API Permissions:**
-   - Go to **API permissions** > **Add a permission** > **Microsoft Graph** > **Delegated permissions**.
-   - Search for and check: `User.ReadWrite.All` and `Directory.ReadWrite.All`.
-   - Click **Add permissions**.
-   - ⚠️ **Crucial:** Click the **Grant admin consent for [Your Organization]** button to authorize these permissions globally.
-4. **Get your IDs:**
-   - Go to **Overview** (left menu).
-   - Copy the **Application (client) ID** and the **Directory (tenant) ID**. Paste them into the EntraSync application!
-
----
-
-## 🚀 Installation
+### Quick Installation:
 1. Go to the **[Releases](../../releases/latest)** section.
-2. Download **`EntraSync-Windows.zip`** (or Mac).
-3. Extract the `.zip` file and double-click the `.exe` (Windows) or `.app` (Mac) to launch.
-4. **Windows Security Note:** SmartScreen may block the launch. Click "More info" then "Run anyway".
-5. **macOS Security Note:** Gatekeeper may display *"EntraSync cannot be opened"*. **Right-click** (or Control+click) on the app, then click **"Open"**. A dialog will appear — click **"Open"** again. macOS will remember your choice.
+2. Download **`ExodSync-Windows.zip`** (or Mac).
+3. Unzip the file into a directory of your choice.
+4. Run `ExodSync.exe` (Windows) or the `.app` on Mac.
+5. *Note for Windows:* The application runs as a standalone folder. All configurations will be safely stored in your hidden `%APPDATA%\ExodSync` folder to keep your installation clean.
 
 ---
 
@@ -50,7 +40,7 @@ Follow these simple steps:
 This software is a proprietary work. The source code is closed and natively compiled.
 It is strictly forbidden to reverse-engineer, decompile, resell, or modify this software.
 
-Please refer to the `LICENSE.txt` file for the exact terms of the End User License Agreement (EULA).
+Please refer to the [End User License Agreement (EULA)](https://exodsync.com/en/eula.html) for exact terms.
 
 <br>
 <hr>
@@ -58,47 +48,37 @@ Please refer to the `LICENSE.txt` file for the exact terms of the End User Licen
 
 # 🇫🇷 Version Française
 
-## ⚡ EntraSync - Synchronisation Excel vers Entra ID
-**EntraSync** est une application bureau autonome conçue pour automatiser et sécuriser la gestion des comptes Microsoft 365 (Entra ID). Elle fait le pont intelligemment entre votre base locale (Excel/CSV) et votre locataire Azure.
+## ⚡ ExodSync - Synchronisation Excel vers Entra ID
+**ExodSync** est une application bureau autonome conçue pour automatiser et sécuriser la gestion des comptes Microsoft 365 (Entra ID). Elle fait le pont intelligemment entre votre base locale (Excel/CSV) et votre locataire Azure.
+
+🌐 **Site Officiel :** [exodsync.com](https://exodsync.com/)  
+📖 **Documentation Officielle :** [exodsync.com/docs.html](https://exodsync.com/docs.html)
 
 ---
 
 ## 🌟 Fonctionnalités Principales
+- **Privacy by Design (RGPD) :** Zéro serveur intermédiaire. ExodSync est un client lourd 100% local. Les données institutionnelles passent directement de votre machine à l'API Graph Microsoft.
+- **Réconciliation à Deux Niveaux (Dual-Matching & Fallback) :** L'algorithme associe les comptes d'abord par l'adresse e-mail générée, puis les sécurise via une empreinte cryptographique (hash).
+- **Autonomie "Zero-Touch" :** Synchronisation silencieuse et automatisée en arrière-plan, sans pop-up Microsoft.
+- **Moteur Instantané :** L'algorithme traite et associe des milliers de comptes de manière instantanée.
+- **Gestion des Rôles (RBAC B2B) :** Définissez des Administrateurs, Gestionnaires de données et Administrateurs de mots de passe.
 - **Support Natif Excel & CSV :** Lecture directe sans conversion.
-- **Workflow en 4 Étapes (Dry Run) :** Détection intelligente des homonymes, visualisation des mises à jour, créations et suppressions sécurisées.
-- **Exécution Asynchrone :** Déploiement rapide sans figer l'interface.
+- **Contrôle Qualité (Pre-flight) :** Détection et purge instantanées des lignes invalides avant toute synchronisation.
+- **Architecture Propre :** Compilé nativement en C avec Nuitka pour des performances maximales, une protection totale du code source et zéro fausse alerte Antivirus. Les configurations locales sont cachées en toute sécurité dans l'AppData de Windows.
 
 ---
 
-## ⚙️ Configuration Azure (Guide étape par étape)
-Lors du premier lancement, l'application vous demandera un **Tenant ID** (ID de locataire) et un **Client ID** (ID d'application). Pour les obtenir, vous devez déclarer l'application sur votre portail Azure.
+## ⚙️ Configuration Azure & Installation
+Pour un guide complet étape par étape sur la configuration de l'application dans votre portail Microsoft Azure, veuillez consulter la documentation sur notre site officiel :
 
-Voici la marche à suivre :
+👉 **[Guide et Documentation ExodSync](https://exodsync.com/docs.html)**
 
-1. **Créer l'Application :**
-   - Allez sur le **Portail Azure** > **Microsoft Entra ID** > **Inscriptions d'applications** (*App registrations*).
-   - Cliquez sur **Nouvelle inscription**. Nommez-la `EntraSync` et cliquez sur **S'inscrire**.
-2. **Configurer l'Authentification :**
-   - Allez dans **Authentification** (menu de gauche) > **Ajouter une plateforme** > **Applications mobiles et de bureau**.
-   - Cochez la case `http://localhost` et cliquez sur **Configurer**.
-   - Plus bas, dans "Paramètres avancés", passez **Autoriser les flux clients publics** sur **Oui**.
-3. **Accorder les Permissions API :**
-   - Allez dans **Autorisations de l'API** > **Ajouter une autorisation** > **Microsoft Graph** > **Autorisations déléguées**.
-   - Cherchez et cochez : `User.ReadWrite.All` et `Directory.ReadWrite.All`.
-   - Cliquez sur **Ajouter des autorisations**.
-   - ⚠️ **Crucial :** Cliquez sur le bouton **Accorder un consentement d'administrateur pour [Votre Organisation]** pour valider les droits.
-4. **Récupérer vos identifiants :**
-   - Allez dans **Vue d'ensemble** (menu de gauche).
-   - Copiez l'**ID d'application (client)** et l'**ID d'annuaire (locataire)**. Ce sont ces deux codes qu'il faut coller dans EntraSync !
-
----
-
-## 🚀 Installation
+### Installation rapide :
 1. Rendez-vous dans la section **[Releases](../../releases/latest)**.
-2. Téléchargez le fichier **`EntraSync-Windows.zip`** (ou Mac).
-3. Extrayez le fichier `.zip` et double-cliquez sur le `.exe` (Windows) ou le `.app` (Mac).
-4. **Sécurité Windows :** SmartScreen peut bloquer le lancement. Cliquez sur "Informations complémentaires" puis "Exécuter quand même".
-5. **Sécurité macOS :** Gatekeeper peut afficher *"Impossible d'ouvrir EntraSync"*. Faites un **clic droit** (ou Contrôle+clic) sur l'application, puis cliquez sur **"Ouvrir"**. Une boîte de dialogue apparaîtra — cliquez à nouveau sur **"Ouvrir"**. macOS retiendra votre choix.
+2. Téléchargez le fichier **`ExodSync-Windows.zip`** (ou Mac).
+3. Dézippez le fichier dans le dossier de votre choix.
+4. Lancez `ExodSync.exe` (Windows) ou le `.app` sur Mac.
+5. *Note Windows :* L'application fonctionne sous forme de dossier autonome. Vos paramètres seront sauvegardés de manière invisible dans `%APPDATA%\ExodSync` pour garder votre dossier propre.
 
 ---
 
@@ -106,4 +86,4 @@ Voici la marche à suivre :
 Ce logiciel est une œuvre propriétaire. Le code source est fermé et compilé nativement.
 Il est strictement interdit de rétro-concevoir (reverse-engineer), décompiler, revendre ou modifier ce logiciel. 
 
-Veuillez consulter le fichier `LICENSE.txt` pour les termes exacts de la licence utilisateur final (EULA).
+Veuillez consulter notre [Contrat de Licence Utilisateur Final (CLUF)](https://exodsync.com/eula.html) pour les termes exacts.
