@@ -8,6 +8,8 @@ Note: This README is available in both English and French. / Ce README est dispo
 🌐 **Official Website:** [exodsync.com](https://exodsync.com/en/)  
 📖 **Official Documentation:** [exodsync.com/en/docs.html](https://exodsync.com/en/docs.html)
 
+[![Download ExodSync](https://img.shields.io/badge/Download-ExodSync_Windows-blue?style=for-the-badge&logo=windows)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-Windows.zip)
+
 ---
 
 ## 🌟 Key Features
@@ -53,6 +55,8 @@ Please refer to the [End User License Agreement (EULA)](https://exodsync.com/en/
 
 🌐 **Site Officiel :** [exodsync.com](https://exodsync.com/)  
 📖 **Documentation Officielle :** [exodsync.com/docs.html](https://exodsync.com/docs.html)
+
+[![Télécharger ExodSync](https://img.shields.io/badge/T%C3%A9l%C3%A9charger-ExodSync_Windows-blue?style=for-the-badge&logo=windows)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-Windows.zip)
 
 ---
 
