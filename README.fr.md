@@ -2,8 +2,8 @@
 
 # 🇫🇷 Version Française
 
-## ⚡ ExodSync - Synchronisation Excel vers Entra ID
-**ExodSync** est une application bureau autonome conçue pour automatiser et sécuriser la gestion des comptes Microsoft 365 (Entra ID). Elle fait le pont intelligemment entre votre base locale (Excel/CSV) et votre locataire Azure.
+## ⚡ ExodSync - D'Excel vers Microsoft 365
+**ExodSync** est un logiciel de bureau simple d'utilisation, conçu pour vous aider à créer et gérer automatiquement vos comptes de messagerie Microsoft 365. Il sert de pont direct entre vos fichiers Excel ou CSV et votre organisation Microsoft en ligne.
 
 🌐 **Site Officiel :** [exodsync.com](https://exodsync.com/)  
 📖 **Documentation Officielle :** [exodsync.com/docs.html](https://exodsync.com/docs.html)
@@ -14,14 +14,13 @@
 ---
 
 ## 🌟 Fonctionnalités Principales
-- **Privacy by Design (RGPD) :** Zéro serveur intermédiaire. ExodSync est un client lourd 100% local. Les données institutionnelles passent directement de votre machine à l'API Graph Microsoft.
-- **Réconciliation à Deux Niveaux (Dual-Matching & Fallback) :** L'algorithme associe les comptes d'abord par l'adresse e-mail générée, puis les sécurise via une empreinte cryptographique (hash).
-- **Autonomie "Zero-Touch" :** Synchronisation silencieuse et automatisée en arrière-plan, sans pop-up Microsoft.
-- **Moteur Instantané :** L'algorithme traite et associe des milliers de comptes de manière instantanée.
-- **Gestion des Rôles (RBAC B2B) :** Définissez des Administrateurs, Gestionnaires de données et Administrateurs de mots de passe.
-- **Support Natif Excel & CSV :** Lecture directe sans conversion.
-- **Contrôle Qualité (Pre-flight) :** Détection et purge instantanées des lignes invalides avant toute synchronisation.
-- **Architecture Propre :** Compilé nativement pour des performances maximales, une sécurité absolue et zéro fausse alerte Antivirus. Les configurations locales sont chiffrées et cachées en toute sécurité sur votre système.
+- **100% Privé et Sécurisé :** Aucune donnée n'est envoyée sur des serveurs externes. ExodSync connecte votre ordinateur directement à Microsoft, garantissant le respect total de vos données et du RGPD.
+- **Association Intelligente :** L'application relie automatiquement les lignes de votre fichier Excel aux bons comptes Microsoft, évitant ainsi les doublons ou les erreurs de modification.
+- **Entièrement Automatisé :** Laissez-le tourner en arrière-plan. ExodSync peut mettre à jour vos comptes automatiquement à intervalles réguliers.
+- **Ultra Rapide :** Mettez à jour des milliers de profils utilisateurs en quelques secondes seulement.
+- **Pensé pour Tous :** Différents niveaux d'accès permettent par exemple aux ressources humaines ou aux secrétariats de mettre à jour les données en toute sécurité, pendant que l'équipe informatique garde le contrôle des paramètres clés.
+- **Fichiers Standards :** Lisez vos fichiers Excel ou CSV habituels sans avoir besoin de les convertir ou de les modifier au préalable.
+- **Prévention des Erreurs :** Le logiciel détecte et ignore automatiquement les informations invalides (noms manquants, adresses mal formatées) avant le moindre envoi vers Microsoft.
 
 ---
 
