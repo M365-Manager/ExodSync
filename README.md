@@ -8,7 +8,7 @@ Note: This README is available in both English and French. / Ce README est dispo
 🌐 **Official Website:** [exodsync.com](https://exodsync.com/en/)  
 📖 **Official Documentation:** [exodsync.com/en/docs.html](https://exodsync.com/en/docs.html)
 
-[![Download ExodSync Windows](https://img.shields.io/badge/Download-ExodSync_Windows-blue?style=for-the-badge&logo=microsoft&logoColor=white&cache=bust1)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-Windows.zip)
+[![Download ExodSync Windows](https://img.shields.io/badge/Download-ExodSync_Windows-blue?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTAgOTMuN2wxODMuNi0yNS4zdjE3Ny40SDBWOTMuN3ptMCAzMjQuNmwxODMuNiAyNS4zVjI2OC40SDB2MTQ5Ljl6bTIwMy44IDI4TDQ0OCA0ODBWMjY4LjRIMjAzLjh2MTc3Ljl6bTAtMzgwLjZ2MTgwLjFINDQ4VjMyTDIwMy44IDY1Ljd6Ii8+PC9zdmc+)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-Windows.zip)
 [![Download ExodSync macOS](https://img.shields.io/badge/Download-ExodSync_macOS-black?style=for-the-badge&logo=apple&logoColor=white&cache=bust1)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-macOS.zip)
 
 ---
@@ -57,7 +57,7 @@ Please refer to the [End User License Agreement (EULA)](https://exodsync.com/en/
 🌐 **Site Officiel :** [exodsync.com](https://exodsync.com/)  
 📖 **Documentation Officielle :** [exodsync.com/docs.html](https://exodsync.com/docs.html)
 
-[![Télécharger ExodSync Windows](https://img.shields.io/badge/T%C3%A9l%C3%A9charger-ExodSync_Windows-blue?style=for-the-badge&logo=microsoft&logoColor=white&cache=bust1)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-Windows.zip)
+[![Télécharger ExodSync Windows](https://img.shields.io/badge/T%C3%A9l%C3%A9charger-ExodSync_Windows-blue?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTAgOTMuN2wxODMuNi0yNS4zdjE3Ny40SDBWOTMuN3ptMCAzMjQuNmwxODMuNiAyNS4zVjI2OC40SDB2MTQ5Ljl6bTIwMy44IDI4TDQ0OCA0ODBWMjY4LjRIMjAzLjh2MTc3Ljl6bTAtMzgwLjZ2MTgwLjFINDQ4VjMyTDIwMy44IDY1Ljd6Ii8+PC9zdmc+)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-Windows.zip)
 [![Télécharger ExodSync macOS](https://img.shields.io/badge/T%C3%A9l%C3%A9charger-ExodSync_macOS-black?style=for-the-badge&logo=apple&logoColor=white&cache=bust1)](https://github.com/M365-Manager/ExodSync/releases/latest/download/ExodSync-macOS.zip)
 
 ---
