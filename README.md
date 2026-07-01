@@ -22,17 +22,23 @@
 
 ---
 
-## ⚙️ Azure Configuration & Installation
-For a complete step-by-step guide on how to register ExodSync in your Microsoft Azure Portal, and how to use the software, please refer to our official website documentation:
+## Quick Installation
 
-👉 **[ExodSync Documentation Guide](https://exodsync.com/en/docs.html)**
+You can download the latest version directly using the buttons at the top of this page, or visit the **[Releases](../../releases/latest)** section to view the full changelog and previous versions.
 
-### Quick Installation:
-1. Go to the **[Releases](../../releases/latest)** section.
-2. Download **`ExodSync-Windows.zip`** (or Mac).
-3. Unzip the file into a directory of your choice.
-4. Run `ExodSync.exe` (Windows) or the `.app` on Mac.
-5. *Note for Windows:* The application runs as a standalone folder. All configurations will be safely stored in a hidden system vault to keep your installation clean.
+1. Download **`ExodSync-Windows.zip`** or **`ExodSync-Mac.zip`**.
+2. Unzip the file into a directory of your choice.
+3. Run the application:
+   - **On Windows:** Run `ExodSync.exe`. 
+     *Note:* If Microsoft Defender SmartScreen prevents the app from starting, click **"More info"**, then **"Run anyway"**.
+   - **On macOS:** Run the `ExodSync.app` file. 
+     *Note:* Since the app is independently distributed, macOS may block it initially. Go to your Mac's **System Settings > Privacy & Security**, scroll down, and click **"Open Anyway"** to authorize ExodSync.
+
+## Microsoft Entra ID Configuration & First Steps
+
+To successfully link ExodSync to your Microsoft 365 tenant, you will need to register the application in your **Microsoft Entra admin center (Identity)**. We have prepared a complete step-by-step guide for you:
+
+**[Read the Official Documentation & Setup Guide](https://exodsync.com/en/docs.html)**
 
 ---
 

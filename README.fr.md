@@ -1,8 +1,7 @@
 🌍 **Lire en :** [Français](README.fr.md) | [English](README.md)
 
-# 🇫🇷 Version Française
 
-## ⚡ ExodSync - D'Excel vers Microsoft 365
+## ⚡ ExodSync - Excel vers Microsoft 365
 **ExodSync** est un logiciel de bureau simple d'utilisation, conçu pour vous aider à créer et gérer automatiquement vos comptes de messagerie Microsoft 365. Il sert de pont direct entre vos fichiers Excel ou CSV et votre organisation Microsoft en ligne.
 
 🌐 **Site Officiel :** [exodsync.com](https://exodsync.com/)  
@@ -24,17 +23,23 @@
 
 ---
 
-## ⚙️ Configuration Azure & Installation
-Pour un guide complet étape par étape sur la configuration de l'application dans votre portail Microsoft Azure, veuillez consulter la documentation sur notre site officiel :
+## Installation Rapide
 
-👉 **[Guide et Documentation ExodSync](https://exodsync.com/docs.html)**
+Vous pouvez télécharger la dernière version directement via les boutons en haut de cette page, ou visiter la section **[Releases](../../releases/latest)** pour consulter l'historique des mises à jour.
 
-### Installation rapide :
-1. Rendez-vous dans la section **[Releases](../../releases/latest)**.
-2. Téléchargez le fichier **`ExodSync-Windows.zip`** (ou Mac).
-3. Dézippez le fichier dans le dossier de votre choix.
-4. Lancez `ExodSync.exe` (Windows) ou le `.app` sur Mac.
-5. *Note Windows :* L'application fonctionne sous forme de dossier autonome. Vos paramètres seront sauvegardés de manière invisible par le système pour garder votre dossier propre.
+1. Téléchargez **`ExodSync-Windows.zip`** ou **`ExodSync-Mac.zip`**.
+2. Dézippez le fichier dans le dossier de votre choix.
+3. Lancez l'application :
+   - **Sur Windows :** Lancez `ExodSync.exe`. 
+     *Note :* Si l'écran bleu "Windows a protégé votre ordinateur" (SmartScreen) apparaît, cliquez sur **"Informations complémentaires"**, puis sur **"Exécuter quand même"**.
+   - **Sur macOS :** Lancez le fichier `ExodSync.app`. 
+     *Note :* Le logiciel étant distribué indépendamment, macOS peut bloquer son ouverture la première fois. Allez dans les **Réglages Système > Confidentialité et sécurité** de votre Mac, descendez un peu, et cliquez sur **"Ouvrir quand même"** pour autoriser ExodSync.
+
+## Configuration Microsoft Entra ID (Identité) & Premiers Pas
+
+Pour relier ExodSync à votre environnement Microsoft 365, vous devez déclarer l'application dans votre **Centre d'administration Microsoft Entra (Identité)**. Nous vous avons préparé un guide complet illustré :
+
+**[Consulter la Documentation Officielle et le Guide de Démarrage](https://exodsync.com/docs.html)**
 
 ---
 
