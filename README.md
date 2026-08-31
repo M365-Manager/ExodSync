@@ -8,7 +8,6 @@
 📖 **Official Documentation:** [exodsync.com/en/docs.html](https://exodsync.com/en/docs.html)
 
 [![Download ExodSync Windows](https://img.shields.io/badge/Download-ExodSync_Windows-blue?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTAgOTMuN2wxODMuNi0yNS4zdjE3Ny40SDBWOTMuN3ptMCAzMjQuNmwxODMuNiAyNS4zVjI2OC40SDB2MTQ5Ljl6bTIwMy44IDI4TDQ0OCA0ODBWMjY4LjRIMjAzLjh2MTc3Ljl6bTAtMzgwLjZ2MTgwLjFINDQ4VjMyTDIwMy44IDY1Ljd6Ii8+PC9zdmc+)](https://github.com/M365-Manager/ExodSync/releases/latest)
-[![Download ExodSync macOS](https://img.shields.io/badge/Download-ExodSync_macOS-black?style=for-the-badge&logo=apple&logoColor=white&cache=bust1)](https://github.com/M365-Manager/ExodSync/releases/latest)
 
 ---
 
@@ -28,15 +27,10 @@
 
 You can download the latest version directly using the buttons at the top of this page, or visit the **[Releases](../../releases/latest)** section to view the full changelog and previous versions.
 
-1. Download the latest version for **Windows** (`.exe`) or **macOS** (`.zip`) from the [Releases page](https://github.com/M365-Manager/ExodSync/releases/latest).
+1. Download the latest version for **Windows** (`.exe`) from the [Releases page](https://github.com/M365-Manager/ExodSync/releases/latest).
 2. Run the application:
-   - **On Windows:** Double-click on `Install_ExodSync_Windows.exe` to launch the setup wizard. *(A portable `.zip` version is also available if your IT department blocks installers).*
+   - Double-click on `Install_ExodSync_Windows.exe` to launch the setup wizard. *(A portable `.zip` version is also available if your IT department blocks installers).*
      *Note:* If Microsoft Defender SmartScreen prevents the installer from starting, click **"More info"**, then **"Run anyway"**.
-   - **On macOS:** Run the `ExodSync.app` file. 
-     *Note:* Because the app is distributed independently and without an Apple Developer Signature, macOS Gatekeeper will block it by default, showing an "app is damaged" or "cannot be verified" warning.
-     To bypass this (only needed once):
-     - **Method 1:** Right-click (or Control-click) on the `ExodSync.app` file and select **Open**. Click **Open** again in the warning dialog.
-     - **Method 2 (for newer macOS versions):** If Method 1 doesn't work, open your Mac's Terminal and run: `xattr -cr /Applications/ExodSync.app` (adjust the path if you didn't place it in the Applications folder).
 
 ## Microsoft Entra ID Configuration & First Steps
 
@@ -69,7 +63,6 @@ Please refer to the [End User License Agreement (EULA)](https://exodsync.com/en/
 📖 **Documentation Officielle :** [exodsync.com/docs.html](https://exodsync.com/docs.html)
 
 [![Télécharger ExodSync Windows](https://img.shields.io/badge/T%C3%A9l%C3%A9charger-ExodSync_Windows-blue?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTAgOTMuN2wxODMuNi0yNS4zdjE3Ny40SDBWOTMuN3ptMCAzMjQuNmwxODMuNiAyNS4zVjI2OC40SDB2MTQ5Ljl6bTIwMy44IDI4TDQ0OCA0ODBWMjY4LjRIMjAzLjh2MTc3Ljl6bTAtMzgwLjZ2MTgwLjFINDQ4VjMyTDIwMy44IDY1Ljd6Ii8+PC9zdmc+)](https://github.com/M365-Manager/ExodSync/releases/latest)
-[![Télécharger ExodSync macOS](https://img.shields.io/badge/T%C3%A9l%C3%A9charger-ExodSync_macOS-black?style=for-the-badge&logo=apple&logoColor=white&cache=bust1)](https://github.com/M365-Manager/ExodSync/releases/latest)
 
 ---
 
@@ -89,15 +82,10 @@ Please refer to the [End User License Agreement (EULA)](https://exodsync.com/en/
 
 Vous pouvez télécharger la dernière version directement via les boutons en haut de cette page, ou visiter la section **[Releases](../../releases/latest)** pour consulter l'historique des mises à jour.
 
-1. Téléchargez la dernière version pour **Windows** (`.exe`) ou **macOS** (`.zip`) depuis la [page des Releases](https://github.com/M365-Manager/ExodSync/releases/latest).
+1. Téléchargez la dernière version pour **Windows** (`.exe`) depuis la [page des Releases](https://github.com/M365-Manager/ExodSync/releases/latest).
 2. Lancez l'application :
-   - **Sur Windows :** Double-cliquez sur `Install_ExodSync_Windows.exe` pour lancer l'assistant d'installation. *(Une version portable `.zip` est également disponible si votre réseau bloque les installeurs).*
+   - Double-cliquez sur `Install_ExodSync_Windows.exe` pour lancer l'assistant d'installation. *(Une version portable `.zip` est également disponible si votre réseau bloque les installeurs).*
      *Note :* Si l'écran bleu "Windows a protégé votre ordinateur" (SmartScreen) apparaît, cliquez sur **"Informations complémentaires"**, puis sur **"Exécuter quand même"**.
-   - **Sur macOS :** Lancez le fichier `ExodSync.app`. 
-     *Note :* L'application étant distribuée de manière indépendante et sans signature Apple Developer payante, le système macOS (Gatekeeper) la bloquera par défaut avec un message indiquant qu'elle "est endommagée" ou "ne peut pas être vérifiée".
-     Pour forcer l'ouverture (à ne faire qu'une seule fois) :
-     - **Méthode 1 :** Faites un **Clic-droit (ou Contrôle+Clic)** sur le fichier `ExodSync.app` et choisissez **Ouvrir**. Cliquez à nouveau sur **Ouvrir** dans la fenêtre d'avertissement.
-     - **Méthode 2 (macOS récents) :** Si la méthode 1 ne fonctionne pas, ouvrez le Terminal de votre Mac et tapez : `xattr -cr /Applications/ExodSync.app` (modifiez le chemin si l'application n'est pas dans le dossier Applications).
 
 ## Configuration Microsoft Entra ID (Identité) & Premiers Pas
 
