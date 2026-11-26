@@ -1,6 +1,6 @@
 END-USER LICENSE AGREEMENT (EULA)
 
-M365 Manager ("The Software")
+ExodSync ("The Software")
 
 Copyright (c) 2026 - Tous droits réservés.
 
